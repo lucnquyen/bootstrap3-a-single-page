@@ -1,0 +1,33 @@
+.section {
+    min-height: 1000px;
+    overflow: hidden;
+    position: 'relative';
+    padding: 80px 10px 0px;
+}
+
+.section:nth-child(even) {
+    background-color: #ccc;
+
+}
+
+#products .col-sm-6 p {
+    line-height: 50px;
+}
+
+#about p{
+    padding: 10px;
+}
+
+#home {
+    background: url(https://www.indiafilings.com/learn/wp-content/uploads/2017/11/Business-Loss-Carry-Forward.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+#about {
+    background: url(http://www.wallflowerglobal.co.in/wp-content/uploads/2018/01/image124.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#home div, #about div {
+    background-color: rgba(255, 255 , 255, 0.5);
+    padding: 10px;
+}
